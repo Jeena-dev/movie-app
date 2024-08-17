@@ -26,3 +26,37 @@ function showMovies(movies) {
 
 
 getMovies(API_URL);
+
+function showMovies(movies) {
+    main.innerHTML = '';
+    movies.forEach((movie)=>{
+
+        const {title ,poster_path, vote_average, overview} = movie;
+
+        const movieEl = document.createElement('div');
+        movieEl.classList.add('movie');
+        movie.innerHTML =`
+                  <img src="${IMG_PATH + poster_path}" alt="${title}">
+        
+        <div class="movie-info">
+    <h3>${title}</h3>
+    <span>${vote_average}</span>
+</div>
+<div class="overview">
+    <h3>overview</h3>
+    ${overview}
+</div>
+        
+        `;
+        main.appendChild(movieEl);
+      
+        
+    });
+
+}
+
+
+
+
+
+
