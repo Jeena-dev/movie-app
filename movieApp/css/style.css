@@ -25,7 +25,12 @@ header {
     color: #7378c5;
 }
 
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
 
 
 
