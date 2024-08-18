@@ -132,6 +132,41 @@ footer {
     margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+    .movie {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+    .movie img {
+        border-radius: 0;
+    }
+
+    header {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .search {
+        width: 100%;
+        padding: 0.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
