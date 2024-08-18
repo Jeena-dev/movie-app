@@ -124,7 +124,13 @@ body {
 }
 
 
-
+footer {
+    background-color: #373b69;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    margin-top: 2rem;
+}
 
 
 
