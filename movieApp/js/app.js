@@ -148,8 +148,9 @@ FormData.addEventListner('submit',(e) => {
     }
 });
 
-
-
+//Optimizing Code 
+// Remove unnecessary comments and format code
+// Optimize function definitions if necessary
 
 
 
