@@ -84,6 +84,29 @@ main {
     color: red;
 }
 
+/* Global Styles */
+body {
+    background-color: #22254b;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/*Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
 
 
 
