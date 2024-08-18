@@ -114,6 +114,23 @@ body {
     0;
 }
 
+.movie:hover {
+    transform: scale(1.05);
+    transition: transform 0.3sease-in-out;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
 
 
 
